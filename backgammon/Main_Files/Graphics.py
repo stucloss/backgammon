@@ -10,24 +10,24 @@ PATH = pathlib.Path(__file__).parent.parent.parent
 os.chdir(PATH)
 
 # Load images & sounds:
-gear_icon = arcade.load_texture("backgammon\Images\gear_icon.png")
-exit_icon = arcade.load_texture("backgammon\Images\exit_icon.png")
-quit_icon = arcade.load_texture("backgammon\Images\quit_icon.png")
+gear_icon = arcade.load_texture("backgammon/Images/gear_icon.png")
+exit_icon = arcade.load_texture("backgammon/Images/exit_icon.png")
+quit_icon = arcade.load_texture("backgammon/Images/quit_icon.png")
 
-delete_icon = arcade.load_texture("backgammon\Images\delete_icon.png")
-darkPiece_icon = arcade.load_texture("backgammon\Images\darkPiece.jpg")
-lightPiece_icon = arcade.load_texture("backgammon\Images\lightPiece.png")
-restart_icon = arcade.load_texture("backgammon\Images\\restart_icon.png")
+delete_icon = arcade.load_texture("backgammon/Images/delete_icon.png")
+darkPiece_icon = arcade.load_texture("backgammon/Images/darkPiece.jpg")
+lightPiece_icon = arcade.load_texture("backgammon/Images/lightPiece.png")
+restart_icon = arcade.load_texture("backgammon/Images/restart_icon.png")
 
-delete_icon2 = arcade.load_texture("backgammon\Images\delete_icon2.png")
-darkPiece_icon2 = arcade.load_texture("backgammon\Images\darkPiece2.jpg")
-lightPiece_icon2 = arcade.load_texture("backgammon\Images\lightPiece2.png")
-restart_icon2 = arcade.load_texture("backgammon\Images\\restart_icon2.png")
+delete_icon2 = arcade.load_texture("backgammon/Images/delete_icon2.png")
+darkPiece_icon2 = arcade.load_texture("backgammon/Images/darkPiece2.jpg")
+lightPiece_icon2 = arcade.load_texture("backgammon/Images/lightPiece2.png")
+restart_icon2 = arcade.load_texture("backgammon/Images/restart_icon2.png")
 
-delete_icon3 = arcade.load_texture("backgammon\Images\delete_icon3.png")
-darkPiece_icon3 = arcade.load_texture("backgammon\Images\darkPiece3.jpg")
-lightPiece_icon3 = arcade.load_texture("backgammon\Images\lightPiece3.png")
-restart_icon3 = arcade.load_texture("backgammon\Images\\restart_icon3.png")
+delete_icon3 = arcade.load_texture("backgammon/Images/delete_icon3.png")
+darkPiece_icon3 = arcade.load_texture("backgammon/Images/darkPiece3.jpg")
+lightPiece_icon3 = arcade.load_texture("backgammon/Images/lightPiece3.png")
+restart_icon3 = arcade.load_texture("backgammon/Images/restart_icon3.png")
 
 # Data:
 Master_Location_Dict = {1: (247, 755), 2: (307, 755), 3: (367, 755), 4: (427, 755), 5: (487, 755), 6: (547, 755),
